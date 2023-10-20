@@ -6,7 +6,7 @@ project(tiny_utf8)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/test")
+set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/examples")
 set(SRCS "reader.cpp")
 list(TRANSFORM SRCS PREPEND "${SRC_DIR}/")
 
